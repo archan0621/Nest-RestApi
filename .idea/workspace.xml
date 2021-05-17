@@ -6,8 +6,12 @@
       <change beforePath="$PROJECT_DIR$/dist/movies/movies.controller.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/movies.controller.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/movies/movies.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/movies.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/movies/movies.controller.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/movies.controller.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/movies/movies.service.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/movies.service.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/movies/movies.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/movies.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/movies/movies.service.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/movies.service.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/tsconfig.build.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tsconfig.build.tsbuildinfo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/movies/movies.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/movies/movies.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/movies/movies.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/movies/movies.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621212378734</updated>
-      <workItem from="1621212380480" duration="4953000" />
+      <workItem from="1621212380480" duration="5356000" />
     </task>
     <servers />
   </component>

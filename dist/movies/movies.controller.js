@@ -30,10 +30,10 @@ let MoviesController = class MoviesController {
         return this.moviesService.getOne(id);
     }
     create(movieData) {
-        return movieData;
+        return this.moviesService.create(movieData);
     }
     remove(id) {
-        return `This will delete a movie with the id: ${id}`;
+        return this.moviesService.deleteOne(id);
     }
     path(id, updateData) {
         return Object.assign({ updatedMovie: id }, updateData);

@@ -1182,13 +1182,13 @@
         "affectsGlobalScope": false
       },
       "../src/movies/movies.service.ts": {
-        "version": "605288d99ab902362eedcfc7a033690e7e2925d380e75340107b858dd14befd9",
-        "signature": "b5fe924d8072ae9365e7fb8c2bcf350af904714b29ff6c7bbf067ca0eb0811ba",
+        "version": "c86e0d8f638643651e821aa55a3e1cb153facde0cd3fe7a5d5e5935b77a0f42c",
+        "signature": "c120192c60a71e8588a49fd6a2a9c5afaf547a39313bceaddbe1e0f4310949f1",
         "affectsGlobalScope": false
       },
       "../src/movies/movies.controller.ts": {
-        "version": "31b9c5ee94a3e76856e2514ad6cb80d601aa5754f0f876eda470f98d471bf028",
-        "signature": "71495c75a230b5a7b91a9302448c16901337a60c93a7c68f2774050a09e830b0",
+        "version": "d39130784d68a387b4fd71334dd4a84dfbd1bd367b5c0056f43100a4447ad0ea",
+        "signature": "156d86d1326534b363d7133b837068597e88ef23d057a38eaf8f570509bf16dc",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {

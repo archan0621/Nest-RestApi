@@ -18,6 +18,13 @@ let MoviesService = class MoviesService {
     getOne(id) {
         return this.movies.find(movie => movie.id === +id);
     }
+    deleteOne(id) {
+        this.movies.filter(movie => movie.id !== +id);
+        return true;
+    }
+    create(movieData) {
+        this.movies.push(Object.assign({ id: this.movies.length + 1 }, movieData));
+    }
 };
 MoviesService = __decorate([
     common_1.Injectable()
