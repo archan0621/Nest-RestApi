@@ -1857,7 +1857,7 @@
         "affectsGlobalScope": false
       },
       "../src/movies/movies.service.ts": {
-        "version": "c70274a19cd03b4449e069ae691bebfbc87b354c0cae61564b0556478c49edec",
+        "version": "65b913db51239fdc64c3c8a3d86e58ab87422c361ab2c4e2445687a0e05684fd",
         "signature": "8ccce3e23565dbe84e8a4b3c6e18360feb76e8da84e07b84b11a0853a0636413",
         "affectsGlobalScope": false
       },
