@@ -1862,12 +1862,17 @@
         "affectsGlobalScope": false
       },
       "../src/movies/movies.controller.ts": {
-        "version": "92199c015fbeb85c854bf09dc6b8744098726bdeb473da5f86ee81364d6526e1",
+        "version": "1e1d7d3fff910063dd7cce2afbd2bd9a641779363d3a50c73203684699674499",
         "signature": "264826af2286978e73d241e397136902e472ec7514ec22cf0645acb51cf43f90",
         "affectsGlobalScope": false
       },
+      "../src/movies/movies.module.ts": {
+        "version": "df807920e6f157ec954867c9ed6c046d95032e861eb22dd6a841e1a85bcb0ecd",
+        "signature": "e139e90428b9edd3df90a4dd7aac1359d6e41ab588db1f53ddbd02b8c8673e59",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "189a81c169274e970e7fa54a77a646088a1eb82b7fd6f48a183016e99c587f3a",
+        "version": "452fafc47dcf2418e7d2f677d1a39ba5a3d8c5fa79e13f0914ec3c7103291443",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -4281,8 +4286,7 @@
       ],
       "../src/app.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../src/movies/movies.controller.ts",
-        "../src/movies/movies.service.ts"
+        "../src/movies/movies.module.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -4302,6 +4306,11 @@
         "../src/movies/dto/create-movie.dto.ts",
         "../src/movies/dto/update-movie.dto.ts",
         "../src/movies/entities/movie.entity.ts",
+        "../src/movies/movies.service.ts"
+      ],
+      "../src/movies/movies.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/movies/movies.controller.ts",
         "../src/movies/movies.service.ts"
       ],
       "../src/movies/movies.service.ts": [
@@ -6593,6 +6602,7 @@
       "../src/movies/dto/update-movie.dto.ts",
       "../src/movies/entities/movie.entity.ts",
       "../src/movies/movies.controller.ts",
+      "../src/movies/movies.module.ts",
       "../src/movies/movies.service.ts",
       "../../../node_modules/@types/color-name/index.d.ts"
     ]
