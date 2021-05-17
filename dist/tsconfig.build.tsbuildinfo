@@ -1176,11 +1176,6 @@
         "signature": "95b5a3078fdc51508d5d9cde59a1dd9525b53fd42dc12265a55261fd415d3274",
         "affectsGlobalScope": false
       },
-      "../src/movies/movies.controller.ts": {
-        "version": "100839d4e45fdd8ca2491fff87903c719ffef17a443ce910ab6762f612bcaa0b",
-        "signature": "c4f3c8e9cd634c93141f4235cab56e3fcd646e2b3a18343878a229e2abad683d",
-        "affectsGlobalScope": false
-      },
       "../src/movies/entities/movie.entity.ts": {
         "version": "4695fc141cdc708e96ae06ef1d210de2af85ab1eaebf41b245bc8a0328878b8c",
         "signature": "dbfbec719e8efb72c66465606b82a661350572e7a75c3fc65386e804d1f57536",
@@ -1189,6 +1184,11 @@
       "../src/movies/movies.service.ts": {
         "version": "605288d99ab902362eedcfc7a033690e7e2925d380e75340107b858dd14befd9",
         "signature": "b5fe924d8072ae9365e7fb8c2bcf350af904714b29ff6c7bbf067ca0eb0811ba",
+        "affectsGlobalScope": false
+      },
+      "../src/movies/movies.controller.ts": {
+        "version": "31b9c5ee94a3e76856e2514ad6cb80d601aa5754f0f876eda470f98d471bf028",
+        "signature": "71495c75a230b5a7b91a9302448c16901337a60c93a7c68f2774050a09e830b0",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
@@ -3090,7 +3090,9 @@
         "../src/app.module.ts"
       ],
       "../src/movies/movies.controller.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/movies/entities/movie.entity.ts",
+        "../src/movies/movies.service.ts"
       ],
       "../src/movies/movies.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -4340,6 +4342,10 @@
       ],
       "../node_modules/rxjs/internal/util/pipe.d.ts": [
         "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../src/movies/movies.controller.ts": [
+        "../src/movies/entities/movie.entity.ts",
+        "../src/movies/movies.service.ts"
       ],
       "../src/movies/movies.service.ts": [
         "../src/movies/entities/movie.entity.ts"

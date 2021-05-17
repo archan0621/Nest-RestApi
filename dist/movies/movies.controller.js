@@ -14,15 +14,20 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MoviesController = void 0;
 const common_1 = require("@nestjs/common");
+const movies_service_1 = require("./movies.service");
+const movie_entity_1 = require("./entities/movie.entity");
 let MoviesController = class MoviesController {
+    constructor(moviesService) {
+        this.moviesService = moviesService;
+    }
     getAll() {
-        return '';
+        return this.moviesService.getAll();
     }
     search(searchingYear) {
         return `We are searching for a movie made after: ${searchingYear}`;
     }
     getOne(id) {
-        return `This will return one movie with the id: ${id}`;
+        return this.moviesService.getOne(id);
     }
     create(movieData) {
         return movieData;
@@ -38,7 +43,7 @@ __decorate([
     common_1.Get(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
-    __metadata("design:returntype", void 0)
+    __metadata("design:returntype", Array)
 ], MoviesController.prototype, "getAll", null);
 __decorate([
     common_1.Get('/search'),
@@ -48,11 +53,11 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], MoviesController.prototype, "search", null);
 __decorate([
-    common_1.Get('/:id'),
+    common_1.Get(':id'),
     __param(0, common_1.Param('id')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
-    __metadata("design:returntype", void 0)
+    __metadata("design:returntype", movie_entity_1.Movie)
 ], MoviesController.prototype, "getOne", null);
 __decorate([
     common_1.Post(),
@@ -76,7 +81,8 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], MoviesController.prototype, "path", null);
 MoviesController = __decorate([
-    common_1.Controller('movies')
+    common_1.Controller('movies'),
+    __metadata("design:paramtypes", [movies_service_1.MoviesService])
 ], MoviesController);
 exports.MoviesController = MoviesController;
 //# sourceMappingURL=movies.controller.js.map
