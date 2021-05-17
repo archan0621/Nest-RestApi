@@ -4,4 +4,4 @@ exports.Movie = void 0;
 class Movie {
 }
 exports.Movie = Movie;
-//# sourceMappingURL=Movie.entity.js.map
+//# sourceMappingURL=movie.entity.js.map

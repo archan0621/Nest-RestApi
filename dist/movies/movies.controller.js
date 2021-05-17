@@ -36,7 +36,7 @@ let MoviesController = class MoviesController {
         return this.moviesService.deleteOne(id);
     }
     path(id, updateData) {
-        return Object.assign({ updatedMovie: id }, updateData);
+        return this.moviesService.update(id, updateData);
     }
 };
 __decorate([
@@ -53,7 +53,7 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], MoviesController.prototype, "search", null);
 __decorate([
-    common_1.Get(':id'),
+    common_1.Get('/:id'),
     __param(0, common_1.Param('id')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),

@@ -7,6 +7,6 @@ export declare class MoviesController {
     search(searchingYear: string): string;
     getOne(id: string): Movie;
     create(movieData: any): void;
-    remove(id: string): boolean;
-    path(id: string, updateData: any): any;
+    remove(id: string): void;
+    path(id: string, updateData: any): void;
 }
