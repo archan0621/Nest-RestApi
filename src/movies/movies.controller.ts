@@ -7,12 +7,17 @@ import {
     Patch,
     Post, Query,
 } from '@nestjs/common';
+import {MoviesService} from "./movies.service";
+import {Movie} from "./entities/movie.entity";
 
 @Controller('movies')
 export class MoviesController {
+
+    constructor(private readonly moviesService: MoviesService) {}
+
   @Get()
-  getAll() {
-    return '';
+  getAll(): Movie[]{
+    return this.moviesService.getAll();
   }
 
   @Get('/search')
@@ -20,9 +25,9 @@ export class MoviesController {
     return `We are searching for a movie made after: ${searchingYear}`;
   }
 
-  @Get('/:id')
-  getOne(@Param('id') id: string) {
-    return `This will return one movie with the id: ${id}`;
+  @Get(':id')
+  getOne(@Param('id') id: string): Movie {
+    return this.moviesService.getOne(id);
   }
 
   @Post()
