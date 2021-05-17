@@ -1,23 +1,23 @@
 import {
-  Body,
-  Controller,
-  Delete,
-  Get,
-  Param,
-  Patch,
-  Post,
+    Body,
+    Controller,
+    Delete,
+    Get,
+    Param,
+    Patch,
+    Post, Query,
 } from '@nestjs/common';
 
 @Controller('movies')
 export class MoviesController {
   @Get()
   getAll() {
-    return 'This will return all movies';
+    return '';
   }
 
   @Get('/search')
-  search() {
-    return `We are searching for a movie with a title: `;
+  search(@Query("year") searchingYear: string) {
+    return `We are searching for a movie made after: ${searchingYear}`;
   }
 
   @Get('/:id')
@@ -41,5 +41,4 @@ export class MoviesController {
       ...updateData,
     };
   }
-
 }
