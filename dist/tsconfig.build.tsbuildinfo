@@ -1176,8 +1176,13 @@
         "signature": "95b5a3078fdc51508d5d9cde59a1dd9525b53fd42dc12265a55261fd415d3274",
         "affectsGlobalScope": false
       },
+      "../src/movies/movies.controller.ts": {
+        "version": "2472b86806f5a20dba904f7e518625fae7119d86c57f04deeb9a456715b35416",
+        "signature": "b22f046439cd8138ff9139a2164f4f037eadec3003211beb45cc021b7539720d",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "c8d47bb6ea0d06664bbcfa6b68fbbd70de3f8d9a6e92f8bd8a8019f5ded67634",
+        "version": "58473df4761405e089ef046033adf873b74b7379e65519c25fdd21a053c20a10",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -3066,11 +3071,15 @@
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../src/app.module.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/movies/movies.controller.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
         "../src/app.module.ts"
+      ],
+      "../src/movies/movies.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -4679,6 +4688,7 @@
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "../src/app.module.ts",
       "../src/main.ts",
+      "../src/movies/movies.controller.ts",
       "../../../node_modules/@types/color-name/index.d.ts"
     ]
   },
