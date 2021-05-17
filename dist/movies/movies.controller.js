@@ -16,6 +16,8 @@ exports.MoviesController = void 0;
 const common_1 = require("@nestjs/common");
 const movies_service_1 = require("./movies.service");
 const movie_entity_1 = require("./entities/movie.entity");
+const create_movie_dto_1 = require("./dto/create-movie.dto");
+const update_movie_dto_1 = require("./dto/update-movie.dto");
 let MoviesController = class MoviesController {
     constructor(moviesService) {
         this.moviesService = moviesService;
@@ -27,6 +29,7 @@ let MoviesController = class MoviesController {
         return `We are searching for a movie made after: ${searchingYear}`;
     }
     getOne(id) {
+        console.log(typeof id);
         return this.moviesService.getOne(id);
     }
     create(movieData) {
@@ -56,28 +59,28 @@ __decorate([
     common_1.Get('/:id'),
     __param(0, common_1.Param('id')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
+    __metadata("design:paramtypes", [Number]),
     __metadata("design:returntype", movie_entity_1.Movie)
 ], MoviesController.prototype, "getOne", null);
 __decorate([
     common_1.Post(),
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
+    __metadata("design:paramtypes", [create_movie_dto_1.CreateMovieDto]),
     __metadata("design:returntype", void 0)
 ], MoviesController.prototype, "create", null);
 __decorate([
     common_1.Delete('/:id'),
     __param(0, common_1.Param('id')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
+    __metadata("design:paramtypes", [Number]),
     __metadata("design:returntype", void 0)
 ], MoviesController.prototype, "remove", null);
 __decorate([
     common_1.Patch('/:id'),
     __param(0, common_1.Param('id')), __param(1, common_1.Body()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, Object]),
+    __metadata("design:paramtypes", [Number, update_movie_dto_1.UpdateMovieDto]),
     __metadata("design:returntype", void 0)
 ], MoviesController.prototype, "path", null);
 MoviesController = __decorate([

@@ -2,16 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d2a7fc5-1ccc-4988-a6b1-2f189ba902ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/movies/dto/update-movie.dto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/movies/entities/Movie.entity.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/entities/Movie.entity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/movies/entities/Movie.entity.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/entities/Movie.entity.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/movies/dto/create-movie.dto.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/dto/create-movie.dto.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/movies/dto/create-movie.dto.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/dto/create-movie.dto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/movies/dto/create-movie.dto.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/dto/create-movie.dto.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/movies/movies.controller.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/movies.controller.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/movies/movies.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/movies.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/movies/movies.controller.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/movies.controller.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/movies/movies.service.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/movies.service.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/movies/movies.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/movies.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/movies/movies.service.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/movies.service.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/tsconfig.build.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tsconfig.build.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hosted-git-info/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hosted-git-info/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hosted-git-info/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hosted-git-info/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hosted-git-info/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hosted-git-info/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/lodash.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/lodash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/lodash.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/lodash.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/parseInt.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/parseInt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/toNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/toNumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/trim.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/trim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/trimEnd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/trimEnd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/trimStart.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/trimStart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/y18n/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/y18n/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/y18n/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/y18n/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/y18n/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/y18n/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/movies/dto/create-movie.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/movies/dto/create-movie.dto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/movies/movies.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/movies/movies.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/movies/movies.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/movies/movies.service.ts" afterDir="false" />
     </list>
@@ -70,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621212378734</updated>
-      <workItem from="1621212380480" duration="12970000" />
+      <workItem from="1621212380480" duration="15601000" />
     </task>
     <servers />
   </component>
