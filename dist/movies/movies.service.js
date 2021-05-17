@@ -6,18 +6,21 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AppModule = void 0;
+exports.MoviesService = void 0;
 const common_1 = require("@nestjs/common");
-const movies_controller_1 = require("./movies/movies.controller");
-const movies_service_1 = require("./movies/movies.service");
-let AppModule = class AppModule {
+let MoviesService = class MoviesService {
+    constructor() {
+        this.movies = [];
+    }
+    getAll() {
+        return this.movies;
+    }
+    getOne(id) {
+        return this.movies.find(movie => movie.id === +id);
+    }
 };
-AppModule = __decorate([
-    common_1.Module({
-        imports: [],
-        controllers: [movies_controller_1.MoviesController],
-        providers: [movies_service_1.MoviesService],
-    })
-], AppModule);
-exports.AppModule = AppModule;
-//# sourceMappingURL=app.module.js.map
+MoviesService = __decorate([
+    common_1.Injectable()
+], MoviesService);
+exports.MoviesService = MoviesService;
+//# sourceMappingURL=movies.service.js.map

@@ -16,10 +16,10 @@ exports.MoviesController = void 0;
 const common_1 = require("@nestjs/common");
 let MoviesController = class MoviesController {
     getAll() {
-        return 'This will return all movies';
+        return '';
     }
-    search() {
-        return `We are searching for a movie with a title: `;
+    search(searchingYear) {
+        return `We are searching for a movie made after: ${searchingYear}`;
     }
     getOne(id) {
         return `This will return one movie with the id: ${id}`;
@@ -42,8 +42,9 @@ __decorate([
 ], MoviesController.prototype, "getAll", null);
 __decorate([
     common_1.Get('/search'),
+    __param(0, common_1.Query("year")),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
+    __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", void 0)
 ], MoviesController.prototype, "search", null);
 __decorate([

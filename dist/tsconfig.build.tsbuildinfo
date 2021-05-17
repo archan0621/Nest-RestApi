@@ -1177,12 +1177,22 @@
         "affectsGlobalScope": false
       },
       "../src/movies/movies.controller.ts": {
-        "version": "2472b86806f5a20dba904f7e518625fae7119d86c57f04deeb9a456715b35416",
-        "signature": "b22f046439cd8138ff9139a2164f4f037eadec3003211beb45cc021b7539720d",
+        "version": "100839d4e45fdd8ca2491fff87903c719ffef17a443ce910ab6762f612bcaa0b",
+        "signature": "c4f3c8e9cd634c93141f4235cab56e3fcd646e2b3a18343878a229e2abad683d",
+        "affectsGlobalScope": false
+      },
+      "../src/movies/entities/movie.entity.ts": {
+        "version": "4695fc141cdc708e96ae06ef1d210de2af85ab1eaebf41b245bc8a0328878b8c",
+        "signature": "dbfbec719e8efb72c66465606b82a661350572e7a75c3fc65386e804d1f57536",
+        "affectsGlobalScope": false
+      },
+      "../src/movies/movies.service.ts": {
+        "version": "605288d99ab902362eedcfc7a033690e7e2925d380e75340107b858dd14befd9",
+        "signature": "b5fe924d8072ae9365e7fb8c2bcf350af904714b29ff6c7bbf067ca0eb0811ba",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "58473df4761405e089ef046033adf873b74b7379e65519c25fdd21a053c20a10",
+        "version": "189a81c169274e970e7fa54a77a646088a1eb82b7fd6f48a183016e99c587f3a",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -3072,7 +3082,8 @@
       ],
       "../src/app.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../src/movies/movies.controller.ts"
+        "../src/movies/movies.controller.ts",
+        "../src/movies/movies.service.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
@@ -3080,6 +3091,10 @@
       ],
       "../src/movies/movies.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../src/movies/movies.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/movies/entities/movie.entity.ts"
       ]
     },
     "exportedModulesMap": {
@@ -4325,6 +4340,9 @@
       ],
       "../node_modules/rxjs/internal/util/pipe.d.ts": [
         "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../src/movies/movies.service.ts": [
+        "../src/movies/entities/movie.entity.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -4688,7 +4706,9 @@
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "../src/app.module.ts",
       "../src/main.ts",
+      "../src/movies/entities/movie.entity.ts",
       "../src/movies/movies.controller.ts",
+      "../src/movies/movies.service.ts",
       "../../../node_modules/@types/color-name/index.d.ts"
     ]
   },
