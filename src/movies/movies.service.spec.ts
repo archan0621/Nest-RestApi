@@ -66,6 +66,23 @@ describe('MoviesService', () => {
       }catch(e){
         expect(e).toBeInstanceOf(NotFoundException);
       }
-    })
+    });
   });
+
+    describe("deleteOne", () => {
+
+      it("deletes a movie", () => {
+          service.create({
+            title: 'Test Movie',
+            genres: ['test'],
+            year: 2000,
+          });
+          const allMovies = service.getAll();
+          service.deleteOne(1)
+          const afterDelete = service.getAll();
+
+          expect(afterDelete.length).toEqual(allMovies.length - 1);
+
+      });
+    });
 });
