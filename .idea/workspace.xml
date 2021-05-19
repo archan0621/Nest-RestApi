@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d2a7fc5-1ccc-4988-a6b1-2f189ba902ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/movies/movies.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/movies.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/movies/movies.service.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/movies/movies.service.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tsconfig.build.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tsconfig.build.tsbuildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/movies/movies.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/movies/movies.service.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/movies/movies.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/movies/movies.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/app.e2e-spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,21 +37,10 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MoviesService.getOne" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -84,7 +69,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621212378734</updated>
-      <workItem from="1621212380480" duration="20541000" />
+      <workItem from="1621212380480" duration="20600000" />
+      <workItem from="1621295751964" duration="492000" />
+      <workItem from="1621296324006" duration="2982000" />
+      <workItem from="1621467987743" duration="520000" />
     </task>
     <servers />
   </component>
@@ -101,5 +89,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
