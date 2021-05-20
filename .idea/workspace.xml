@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2d2a7fc5-1ccc-4988-a6b1-2f189ba902ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/tsconfig.build.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tsconfig.build.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/movies/movies.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/movies/movies.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/app.e2e-spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +43,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoviesService.getOne" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -72,7 +87,7 @@
       <workItem from="1621212380480" duration="20600000" />
       <workItem from="1621295751964" duration="492000" />
       <workItem from="1621296324006" duration="2982000" />
-      <workItem from="1621467987743" duration="520000" />
+      <workItem from="1621467987743" duration="2576000" />
     </task>
     <servers />
   </component>

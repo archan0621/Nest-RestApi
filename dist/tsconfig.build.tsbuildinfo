@@ -1862,7 +1862,7 @@
         "affectsGlobalScope": false
       },
       "../src/movies/movies.controller.ts": {
-        "version": "1e1d7d3fff910063dd7cce2afbd2bd9a641779363d3a50c73203684699674499",
+        "version": "1e3a21e851976e6fa846ba9cd6da05ab1f97de1d37ec0709d05a298029cc72e4",
         "signature": "264826af2286978e73d241e397136902e472ec7514ec22cf0645acb51cf43f90",
         "affectsGlobalScope": false
       },
