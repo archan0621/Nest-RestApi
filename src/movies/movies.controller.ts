@@ -26,7 +26,7 @@ export class MoviesController {
     return `We are searching for a movie made after: ${searchingYear}`;
   }
 
-  @Get('/:id')
+  @Get(':id')
   getOne(@Param('id') id: number): Movie {
         console.log(typeof id);
     return this.moviesService.getOne(id);
@@ -37,12 +37,12 @@ export class MoviesController {
     return this.moviesService.create(movieData);
   }
 
-  @Delete('/:id')
+  @Delete(':id')
   remove(@Param('id') id: number) {
     return this.moviesService.deleteOne(id);
   }
 
-  @Patch('/:id')
+  @Patch(':id')
   path(@Param('id') id: number, @Body() updateData: UpdateMovieDto) {
     return this.moviesService.update(id, updateData);
   }
